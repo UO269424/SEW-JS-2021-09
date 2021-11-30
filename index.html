@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 9</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Ejercicio9.js"></script>
+        <link rel="stylesheet" href="Ejercicio9.css"/>
+    </head>
+    <body>
+        
+        <h1>Meteorología de los siguientes hitos:</h1>
+        <h2>Oviedo</h2>
+        <button id = "TiempoEnOviedo" onclick = "meteo.cargarDatos('Oviedo', 'ES');">Ver meteorología</button>
+        
+        <h2>Madrid</h2>
+        <button id = "TiempoEnMadrid" onclick = "meteo.cargarDatos('Madrid', 'ES')">Ver meteorología</button>
+        
+        
+        <h2>Valladolid</h2>
+        <button id = "TiempoEnValladolid" onclick = "meteo.cargarDatos('Valladolid', 'ES');">Ver meteorología</button>
+        
+        <h2>Villárdiga</h2>
+        <button id = "TiempoEnVillardiga" onclick = "meteo.cargarDatos('Villardiga', 'ES');">Ver meteorología</button>
+        
+        <h2>Zamora</h2>
+        <button id = "TiempoEnZamora" onclick = "meteo.cargarDatos('Zamora', 'ES');">Ver meteorología</button>
+        
+        <br>
+        <p><strong>XML:</strong></p>
+        <p class="xml"></p>
+        <p><strong>Meteorología del lugar</strong></p>
+        <p class="datos"></p>
+    </body>
+</html>
